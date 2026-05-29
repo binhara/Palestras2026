@@ -729,16 +729,19 @@ h2.s-title.wide { max-width: none; }
 .cta-link i { width: 22px; height: 22px; color: var(--green); }
 .cta-link:hover { border-color: var(--green); }
 
-/* Screenshot vertical (ETT player) */
-.app-shot { display: flex; justify-content: center; align-items: center; }
+/* Screenshot vertical (ETT player) — ocupa a coluna inteira */
+.app-shot { display: flex; justify-content: center; align-items: center; height: 100%; }
 .app-shot img {
-  max-height: 60vh; width: auto; max-width: 100%;
+  height: 100%;
+  max-height: 76vh;
+  width: auto; max-width: 100%;
+  object-fit: contain;
   display: block;
   border-radius: 22px;
   border: 1px solid var(--border-strong);
   box-shadow: 0 24px 60px rgba(0,0,0,.55), 0 0 50px rgba(0,209,255,.12);
 }
-@media (max-width: 960px) { .app-shot img { max-height: 40vh; } }
+@media (max-width: 960px) { .app-shot img { height: auto; max-height: 44vh; } }
 
 /* Cartões de estatística (ETT) */
 .stats-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 22px; }
