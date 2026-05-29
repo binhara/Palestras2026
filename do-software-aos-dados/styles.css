@@ -729,19 +729,77 @@ h2.s-title.wide { max-width: none; }
 .cta-link i { width: 22px; height: 22px; color: var(--green); }
 .cta-link:hover { border-color: var(--green); }
 
-/* Screenshot vertical (ETT player) — ocupa a coluna inteira */
-.app-shot { display: flex; justify-content: center; align-items: center; height: 100%; }
+/* === Slide "Treine inglês" — layout editorial === */
+.eng-split {
+  display: grid;
+  grid-template-columns: 1fr 0.92fr;
+  gap: 56px;
+  align-items: center;
+  height: 100%;
+}
+.eng-content { display: flex; flex-direction: column; gap: 4px; }
+.eng-content .kicker { align-self: flex-start; margin-bottom: 18px; }
+.eng-content .s-title { margin-bottom: 14px; }
+
+/* Rótulo de seção discreto */
+.mini-label {
+  font-family: var(--font-head); font-weight: 500;
+  font-size: .75rem; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--cyan);
+  margin: 22px 0 12px;
+  display: flex; align-items: center; gap: 10px;
+}
+.mini-label::after { content: ""; flex: 1; height: 1px; background: var(--border); }
+
+/* Prompts de prática como citações */
+.prompt-list { list-style: none; display: grid; gap: 10px; }
+.prompt-list li {
+  display: flex; align-items: center; gap: 13px;
+  padding: 13px 18px;
+  border-radius: 12px;
+  background: rgba(255,255,255,.03);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--cyan);
+  font-family: var(--font-head); font-weight: 500;
+  font-size: clamp(1rem, 1.35vw, 1.3rem);
+  color: var(--text-1);
+}
+.prompt-list li i { width: 18px; height: 18px; color: var(--cyan); flex: none; opacity: .8; }
+
+/* Pills compactas */
+.pills.compact { gap: 10px; }
+.pills.compact .pill { padding: 10px 16px; font-size: clamp(.85rem, 1.05vw, 1.05rem); }
+.pills.compact .pill i { width: 16px; height: 16px; }
+
+/* Screenshot vertical (ETT player) — moldura + legenda */
+.app-shot {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 16px; height: 100%; margin: 0;
+}
 .app-shot img {
   height: 100%;
-  max-height: 76vh;
+  max-height: 70vh;
   width: auto; max-width: 100%;
   object-fit: contain;
   display: block;
-  border-radius: 22px;
+  border-radius: 24px;
   border: 1px solid var(--border-strong);
-  box-shadow: 0 24px 60px rgba(0,0,0,.55), 0 0 50px rgba(0,209,255,.12);
+  box-shadow: 0 30px 70px rgba(0,0,0,.6), 0 0 60px rgba(0,209,255,.16);
 }
-@media (max-width: 960px) { .app-shot img { height: auto; max-height: 44vh; } }
+.app-cap {
+  display: inline-flex; align-items: center; gap: 9px;
+  font-family: var(--font-head); font-weight: 500;
+  font-size: clamp(.85rem, 1.05vw, 1.05rem);
+  color: var(--text-2);
+  padding: 9px 18px; border-radius: 999px;
+  background: var(--card); border: 1px solid var(--border);
+}
+.app-cap i { width: 17px; height: 17px; color: var(--green); }
+
+@media (max-width: 960px) {
+  .eng-split { grid-template-columns: 1fr; gap: 28px; }
+  .app-shot img { height: auto; max-height: 40vh; }
+}
 
 /* Cartões de estatística (ETT) */
 .stats-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 22px; }
