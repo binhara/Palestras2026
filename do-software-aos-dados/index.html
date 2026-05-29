@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Do Software aos Dados — Carreira Internacional em Tecnologia</title>
+
+  <!-- Google Fonts: Inter (texto) + Space Grotesk (títulos) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+
+  <!-- Lucide icons (CDN) -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-fx"></div>
+
+  <main class="deck" id="deck">
+
+    <!-- ===================== SLIDE 1 — TÍTULO ===================== -->
+    <section class="slide" data-slide>
+      <div class="bg-media"><img src="assets/images/journey-tech-road.png" alt="Jornada em tecnologia" /></div>
+      <div class="cover-qr">
+        <div class="qr-box"><img src="assets/images/qr-linkedin.png" alt="QR Code do LinkedIn de Alessandro Binhara" /></div>
+        <span class="qr-cap"><i data-lucide="linkedin"></i> Conecte-se comigo</span>
+      </div>
+      <div class="slide-inner stagger">
+        <span class="kicker"><span class="dot"></span> Palestra · Carreira em Tecnologia</span>
+        <h1 class="title">Do <span class="grad">Software</span><br/>aos <span class="grad">Dados</span></h1>
+        <p class="subtitle" style="margin-top:24px;">Como construir uma carreira internacional em tecnologia</p>
+        <div class="speaker">
+          <img class="avatar" src="assets/images/binhara.jpg" alt="Alessandro De Oliveira Binhara" />
+          <div class="sp-info">
+            <span class="sp-name">Alessandro De Oliveira Binhara</span>
+            <span class="sp-role">Senior Data Engineer · GU BigData &amp; IA · DSSBR</span>
+            <a class="sp-link" href="https://www.linkedin.com/in/binhara/" target="_blank" rel="noopener"><i data-lucide="linkedin"></i> linkedin.com/in/binhara</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SLIDE 2 — O QUE VOCÊ VAI LEVAR ===================== -->
+    <section class="slide" data-slide>
+      <div class="slide-inner">
+        <span class="kicker"><span class="dot"></span> Agenda</span>
+        <h2 class="s-title wide">O que você vai levar desta palestra</h2>
+        <div class="grid grid-5 stagger">
+          <div class="card"><div class="icon-chip"><i data-lucide="code-2"></i></div><p>O dia a dia de um <strong>engenheiro de software</strong></p></div>
+          <div class="card"><div class="icon-chip"><i data-lucide="database"></i></div><p>O dia a dia de um <strong>engenheiro de dados</strong></p></div>
+          <div class="card"><div class="icon-chip"><i data-lucide="trending-up"></i></div><p>Como construir uma <strong>trajetória técnica forte</strong></p></div>
+          <div class="card"><div class="icon-chip"><i data-lucide="globe"></i></div><p>Como se posicionar para o <strong>mercado internacional</strong></p></div>
+          <div class="card"><div class="icon-chip"><i data-lucide="sparkles"></i></div><p>Inglês, IA, LinkedIn, currículo e entrevistas <strong>a seu favor</strong></p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SLIDE 3 — TRAJETÓRIA EM UMA LINHA ===================== -->
+    <section class="slide" data-slide>
+      <div class="bg-media"><img src="assets/images/journey-tech-road.png" alt="Estrada tecnológica" /></div>
+      <div class="slide-inner">
+        <span class="kicker"><span class="dot"></span> Minha trajetória</span>
+        <h2 class="s-title wide">Software → Mobile → Sistemas Distribuídos → Big Data → Cloud → Dados &amp; IA → Comunidade</h2>
+        <div class="timeline stagger" style="margin:30px 0;">
+          <div class="tl-node"><div class="tl-dot"><i data-lucide="code-2"></i></div><div class="tl-label">Software</div></div>
+          <div class="tl-node"><div class="tl-dot"><i data-lucide="smartphone"></i></div><div class="tl-label">Mobile</div></div>
+          <div class="tl-node"><div class="tl-dot"><i data-lucide="network"></i></div><div class="tl-label">Distribuídos</div></div>
+          <div class="tl-node"><div class="tl-dot"><i data-lucide="layers"></i></div><div class="tl-label">Big Data</div></div>
+          <div class="tl-node"><div class="tl-dot"><i data-lucide="cloud"></i></div><div class="tl-label">Cloud</div></div>
+          <div class="tl-node"><div class="tl-dot"><i data-lucide="brain-circuit"></i></div><div class="tl-label">Dados &amp; IA</div></div>
+          <div class="tl-node"><div class="tl-dot"><i data-lucide="users"></i></div><div class="tl-label">Comunidade</div></div>
+        </div>
+        <p class="lead">Uma carreira em tecnologia não é uma linha reta. É uma sequência de <strong style="color:var(--green)">ciclos de aprendizado</strong>.</p>
+      </div>
+    </section>
+
+    <!-- ===================== SLIDE 4 — SOFTWARE COMO BASE ===================== -->
+    <section class="slide" data-slide>
+      <div class="slide-inner">
+        <span class="kicker"><span class="dot"></span> O começo</span>
+        <h2 class="s-title">Antes de ser engenheiro de dados, eu fui engenheiro de software</h2>
+        <ul class="feature-list two-col stagger">
+          <li><i data-lucide="check-circle-2"></i> Código ensina lógica, disciplina e depuração</li>
+          <li><i data-lucide="check-circle-2"></i> Sistemas ensinam arquitetura, manutenção e entrega</li>
+          <li><i data-lucide="check-circle-2"></i> Projetos reais ensinam prazo, cliente e responsabilidade</li>
+          <li><i data-lucide="check-circle-2"></i> Fundamentos seguem úteis quando as ferramentas mudam</li>
+        </ul>
+        <div class="highlight">Tecnologia muda. Fundamentos permanecem.</div>
+      </div>
+    </section>
+
+    <!-- ===================== SLIDE 5 — MOBILE / ARQUITETURA ===================== -->
+    <section class="slide" data-slide>
+      <div class="slide-inner">
+        <span class="kicker"><span class="dot"></span> Mobile &amp; Arquitetura</span>
+        <h2 class="s-title">A fase mobile e arquitetura de software</h2>
+        <ul class="feature-list two-col stagger">
+          <li><i data-lucide="smartphone"></i> Android, iOS, Xamarin, C#, Java e .NET</li>
+          <li><i data-lucide="building-2"></i> Aplicações corporativas e produtos digitais</li>
+          <li><i data-lucide="git-branch"></i> Testes, arquitetura, integração e publicação em lojas</li>
+          <li><i data-lucide="users"></i> Treinamento de times e liderança técnica</li>
+        </ul>
+        <div class="highlight">Essa fase consolidou visão de produto, engenharia e entrega.</div>
+      </div>
+    </section>
+
+    <!-- ===================== SLIDE 6 — COMUNIDADE / OPEN SOURCE ===================== -->
+    <section class="slide" data-slide>
+      <div class="slide-inner">
+        <span class="kicker"><span class="dot"></span> Comunidade</span>
+        <h2 class="s-title">Comunidade acelera carreira</h2>
+        <div class="pills stagger" style="margin-bottom:8px;">
+          <span class="pill"><i data-lucide="git-merge"></i> Mono Brasil</span>
+          <span class="pill"><i data-lucide="smartphone"></i> Xamarin</span>
+          <span class="pill"><i data-lucide="graduation-cap"></i> Treinamentos</span>
+          <span class="pill"><i data-lucide="calendar"></i> Eventos</span>
+          <span class="pill"><i data-lucide="share-2"></i> Compartilhamento de conhecimento</span>
+          <span class="pill"><i data-lucide="network"></i> Networking técnico</span>
+        </div>
+        <div class="highlight">Quem participa de comunidade aprende mais rápido, aparece mais e cria mais oportunidades.</div>
+      </div>
+    </section>
+
+    <!-- ===================== SLIDE 7 — VIRADA PARA BIG DATA ===================== -->
+    <section class="slide" data-slide>
+      <div class="slide-inner">
+        <span class="kicker"><span class="dot"></span> A virada</span>
+        <h2 class="s-title">Quando os problemas ficaram grandes demais para uma aplicação tradicional</h2>
+        <ul class="feature-list two-col stagger">
+          <li><i data-lucide="layers"></i> Hadoop, HDFS, MapReduce e Mahout</li>
+          <li><i data-lucide="shopping-cart"></i> Recomendação de produtos em larga escala</li>
+          <li><i data-lucide="network"></i> Sistemas distribuídos</li>
+          <li><i data-lucide="repeat"></i> Processamento batch</li>
+          <li><i data-lucide="brain-circuit"></i> Machine learning em ambientes distribuídos</li>
+        </ul>
+        <div class="highlight">Big Data me ensinou que escala muda a forma de pensar arquitetura.</div>
+      </div>
+    </section>
+
+    <!-- ===================== SLIDE 8 — DIA A DIA ENG. SOFTWARE ===================== -->
+    <section class="slide" data-slide>
+      <div class="slide-inner">
+        <div class="split left-media">
+          <div class="media"><img src="assets/images/software-vs-data.png" alt="Engenharia de software" /></div>
+          <div>
+            <span class="kicker"><span class="dot"></span> Engenheiro de Software</span>
+            <h2 class="s-title">O que faz um Engenheiro de Software?</h2>
+            <ul class="feature-list two-col">
+              <li><i data-lucide="clipboard-list"></i> Entende requisitos</li>
+              <li><i data-lucide="code-2"></i> Desenvolve funcionalidades</li>
+              <li><i data-lucide="plug"></i> Cria APIs e integrações</li>
+              <li><i data-lucide="bug"></i> Corrige bugs</li>
+              <li><i data-lucide="flask-conical"></i> Escreve testes</li>
+              <li><i data-lucide="rocket"></i> Faz deploy</li>
+              <li><i data-lucide="activity"></i> Monitora aplicações</li>
+              <li><i data-lucide="users"></i> Atua com produto, UX e infra</li>
+            </ul>
+            <div class="highlight">O engenheiro de software constrói sistemas que pessoas e empresas usam.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SLIDE 9 — DIA A DIA ENG. DADOS ===================== -->
+    <section class="slide" data-slide>
+      <div class="slide-inner">
+        <div class="split">
+          <div>
+            <span class="kicker"><span class="dot"></span> Engenheiro de Dados</span>
+            <h2 class="s-title">O que faz um Engenheiro de Dados?</h2>
+            <ul class="feature-list two-col">
+              <li><i data-lucide="git-fork"></i> Cria pipelines</li>
+              <li><i data-lucide="arrow-left-right"></i> Extrai, transforma e entrega dados</li>
+              <li><i data-lucide="table-2"></i> Modela bases analíticas</li>
+              <li><i data-lucide="shield-check"></i> Cuida de qualidade e confiabilidade</li>
+              <li><i data-lucide="gauge"></i> Otimiza performance e custo</li>
+              <li><i data-lucide="bar-chart-3"></i> Integra dados com BI, IA e produtos</li>
+            </ul>
+            <div class="highlight">O engenheiro de dados constrói caminhos confiáveis para a empresa tomar decisões.</div>
+          </div>
+          <div class="media"><img src="assets/images/software-vs-data.png" alt="Engenharia de dados" /></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SLIDE 10 — SOFTWARE x DADOS ===================== -->
+    <section class="slide" data-slide>
+      <div class="slide-inner">
+        <span class="kicker"><span class="dot"></span> Comparação</span>
+        <h2 class="s-title wide">Duas áreas diferentes, mas conectadas</h2>
+        <div class="versus stagger">
+          <div class="vs-col sw card">
+            <h3><i data-lucide="code-2"></i> Software Engineer</h3>
+            <ul>
+              <li>Produto</li><li>Aplicação</li><li>APIs</li>
+              <li>Usuário final</li><li>Funcionalidade</li><li>Experiência</li>
+            </ul>
+          </div>
+          <div class="vs-badge">x</div>
+          <div class="vs-col de card">
+            <h3><i data-lucide="database"></i> Data Engineer</h3>
+            <ul>
+              <li>Plataforma</li><li>Pipeline</li><li>Dados</li>
+              <li>BI / IA / Analytics</li><li>Confiabilidade</li><li>Escala</li>
+            </ul>
+          </div>
+        </div>
+        <div class="highlight">Quanto melhor o engenheiro de dados entende software, mais forte ele se torna.</div>
+      </div>
+    </section>
+
+    <!-- ===================== SLIDE 11 — COMO APRENDI ===================== -->
+    <section class="slide" data-slide>
+      <div class="slide-inner">
+        <span class="kicker"><span class="dot"></span> Aprendizado</span>
+        <h2 class="s-title">Aprender tecnologia não é decorar ferramenta</h2>
+        <div class="pills stagger">
+          <span class="pill"><i data-lucide="box"></i> Comece pelos fundamentos</span>
+          <span class="pill"><i data-lucide="hammer"></i> Crie projetos pequenos</span>
+          <span class="pill"><i data-lucide="book-open"></i> Leia documentação</span>
+          <span class="pill"><i data-lucide="terminal"></i> Teste na prática</span>
+          <span class="pill"><i data-lucide="wrench"></i> Quebre e corrija</span>
+          <span class="pill"><i data-lucide="users"></i> Participe de comunidade</span>
+          <span class="pill"><i data-lucide="presentation"></i> Ensine para aprender</span>
+        </div>
+        <div class="highlight">A melhor forma de aprender é construir algo, errar, corrigir e explicar para alguém.</div>
+      </div>
+    </section>
+
+    <!-- ===================== SLIDE 12 — FUNDAMENTOS ===================== -->
+    <section class="slide" data-slide>
+      <div class="slide-inner">
+        <span class="kicker"><span class="dot"></span> Base sólida</span>
+        <h2 class="s-title wide">Ferramentas mudam. <span class="grad">Fundamentos ficam.</span></h2>
+        <div class="pills stagger" style="margin-top:14px;">
+          <span class="pill"><i data-lucide="binary"></i> Lógica</span>
+          <span class="pill"><i data-lucide="database"></i> SQL</span>
+          <span class="pill"><i data-lucide="terminal"></i> Linux</span>
+          <span class="pill"><i data-lucide="network"></i> Redes</span>
+          <span class="pill"><i data-lucide="table-2"></i> Banco de dados</span>
+          <span class="pill"><i data-lucide="layout-template"></i> Arquitetura</span>
+          <span class="pill"><i data-lucide="flask-conical"></i> Testes</span>
+          <span class="pill"><i data-lucide="cloud"></i> Cloud</span>
+          <span class="pill"><i data-lucide="shield"></i> Segurança</span>
+          <span class="pill"><i data-lucide="message-circle"></i> Comunicação</span>
+          <span class="pill"><i data-lucide="languages"></i> Inglês técnico</span>
+          <span class="pill"><i data-lucide="puzzle"></i> Resolução de problemas</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SLIDE 13 — ESTUDAR x EXPOR ===================== -->
+    <section class="slide" data-slide>
+      <div class="slide-inner">
+        <span class="kicker"><span class="dot"></span> Visibilidade</span>
+        <h2 class="s-title">Quem só estuda fica invisível</h2>
+        <ul class="feature-list two-col stagger">
+          <li><i data-lucide="github"></i> Organize seu GitHub</li>
+          <li><i data-lucide="upload"></i> Publique pequenos projetos</li>
+          <li><i data-lucide="pen-line"></i> Escreva posts simples</li>
+          <li><i data-lucide="calendar"></i> Participe de eventos</li>
+          <li><i data-lucide="help-circle"></i> Faça perguntas</li>
+          <li><i data-lucide="share-2"></i> Compartilhe aprendizados</li>
+          <li><i data-lucide="film"></i> Conte os bastidores da sua evolução</li>
+        </ul>
+        <div class="highlight">Carreira também é visibilidade com consistência.</div>
+      </div>
+    </section>
+
+    <!-- ===================== SLIDE 14 — MERCADO INTERNACIONAL ===================== -->
+    <section class="slide" data-slide>
+      <div class="slide-inner">
+        <span class="kicker"><span class="dot"></span> Mercado global</span>
+        <h2 class="s-title">Por que pensar no mercado internacional?</h2>
+        <ul class="feature-list two-col stagger">
+          <li><i data-lucide="globe"></i> Tecnologia é um mercado global</li>
+          <li><i data-lucide="laptop"></i> O trabalho remoto abriu portas</li>
+          <li><i data-lucide="building-2"></i> Empresas buscam talentos em vários países</li>
+          <li><i data-lucide="award"></i> O Brasil tem bons profissionais técnicos</li>
+          <li><i data-lucide="key"></i> Inglês e posicionamento destravam oportunidades</li>
+        </ul>
+        <div class="highlight">O inglês não é apenas uma matéria. É uma ferramenta de acesso.</div>
+      </div>
+    </section>
+
+    <!-- ===================== SLIDE 15 — INGLÊS FUNCIONAL ===================== -->
+    <section class="slide" data-slide>
+      <div class="slide-inner">
+        <span class="kicker"><span class="dot"></span> Inglês funcional</span>
+        <h2 class="s-title">Você não precisa falar como nativo. Precisa se comunicar.</h2>
+        <ul class="feature-list two-col stagger">
+          <li><i data-lucide="user"></i> Apresentar sua trajetória</li>
+          <li><i data-lucide="folder-open"></i> Explicar um projeto</li>
+          <li><i data-lucide="video"></i> Participar de reuniões</li>
+          <li><i data-lucide="messages-square"></i> Fazer entrevistas</li>
+          <li><i data-lucide="mail"></i> Escrever mensagens profissionais</li>
+          <li><i data-lucide="book-open"></i> Ler documentação</li>
+          <li><i data-lucide="network"></i> Fazer networking</li>
+        </ul>
+        <div class="highlight">O <strong style="color:var(--green)">English Talk Time</strong> existe para levar profissionais de tech, dados, IA e BI do inglês travado ao inglês funcional.</div>
+      </div>
+    </section>
+
+    <!-- ===================== SLIDE 16 — ENGLISH TALK TIME (ETT) ===================== -->
+    <section class="slide" data-slide>
+      <div class="slide-inner">
+        <span class="kicker"><span class="dot"></span> English Talk Time · ETT</span>
+        <h2 class="s-title wide">ETT — destrave o inglês para a carreira global</h2>
+        <div class="split">
+          <div>
+            <p class="lead" style="max-width:none;">Um <strong style="color:var(--green)">ecossistema de aceleração de inglês</strong> — não é um curso — para profissionais de Tecnologia, Dados, IA e BI — de "entendo, mas travo" ao inglês funcional.</p>
+            <div class="stats-2">
+              <div class="stat"><div class="num">+365 mil</div><div class="lbl">alunos formados pela Fórmula Fluente</div></div>
+              <div class="stat"><div class="num">~300 h</div><div class="lbl">de jornada estruturada</div></div>
+              <div class="stat"><div class="num">1 h/dia</div><div class="lbl">de imersão diária recomendada</div></div>
+              <div class="stat"><div class="num">até 5×</div><div class="lbl">potencial salarial internacional</div></div>
+            </div>
+          </div>
+          <div>
+            <h4 style="font-family:var(--font-head);color:var(--cyan);font-size:clamp(1.1rem,1.5vw,1.4rem);margin-bottom:16px;">Um ecossistema completo</h4>
+            <ul class="feature-list">
+              <li><i data-lucide="users"></i> Comunidade, constância e comprometimento</li>
+              <li><i data-lucide="layers"></i> Base estruturada e nivelamento (A0 → B1)</li>
+              <li><i data-lucide="messages-square"></i> Conversação guiada: role-play e storytelling</li>
+              <li><i data-lucide="plane"></i> Imersão intensiva no Brasil e nos EUA</li>
+              <li><i data-lucide="briefcase"></i> Empregabilidade internacional (Coders)</li>
+              <li><i data-lucide="bot"></i> 10 ferramentas com IA e personalização</li>
+            </ul>
+          </div>
+        </div>
+        <div class="cta-row" style="margin-top:24px;">
+          <span class="pill"><i data-lucide="calendar-check"></i> Encontros gratuitos · online toda segunda + presencial em Curitiba</span>
+          <a class="cta-link" href="https://englishtalktime.com.br/" target="_blank" rel="noopener"><i data-lucide="external-link"></i> englishtalktime.com.br</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SLIDE 17 — PRATICAR INGLÊS ===================== -->
+    <section class="slide" data-slide>
+      <div class="slide-inner">
+        <span class="kicker"><span class="dot"></span> Prática</span>
+        <h2 class="s-title">Treine inglês com situações reais</h2>
+        <div class="grid grid-4 stagger" style="margin-bottom:18px;">
+          <div class="card"><div class="icon-chip"><i data-lucide="user"></i></div><p><em>Tell me about yourself</em></p></div>
+          <div class="card"><div class="icon-chip"><i data-lucide="folder-open"></i></div><p><em>Explain a technical project</em></p></div>
+          <div class="card"><div class="icon-chip"><i data-lucide="puzzle"></i></div><p><em>Describe a challenge you solved</em></p></div>
+          <div class="card"><div class="icon-chip"><i data-lucide="messages-square"></i></div><p>Simule entrevistas</p></div>
+        </div>
+        <ul class="feature-list two-col">
+          <li><i data-lucide="book-open"></i> Leia documentação em inglês</li>
+          <li><i data-lucide="bot"></i> Use IA para role-play</li>
+          <li><i data-lucide="layers"></i> Crie flashcards técnicos</li>
+          <li><i data-lucide="users"></i> Participe de conversações guiadas</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== SLIDE 18 — CURRÍCULO ===================== -->
+    <section class="slide" data-slide>
+      <div class="slide-inner">
+        <div class="split left-media">
+          <div class="media"><img src="assets/images/star-action-plan.png" alt="Plano de carreira" /></div>
+          <div>
+            <span class="kicker"><span class="dot"></span> Currículo</span>
+            <h2 class="s-title">Currículo forte conta impacto</h2>
+            <div class="levels stagger">
+              <div class="level weak"><span class="tag">Fraco</span><p>"Trabalhei com Hadoop, Spark, Python e SQL."</p></div>
+              <div class="level mid"><span class="tag">Melhor</span><p>"Modernizei pipelines de dados em ambiente Hadoop/Spark."</p></div>
+              <div class="level strong"><span class="tag">Forte</span><p>"Liderei a modernização de uma plataforma de dados de grande escala, reduzindo custos, melhorando performance e garantindo continuidade dos dashboards executivos."</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SLIDE 19 — CURRÍCULO REAL 2024 x 2026 (abre PDFs) ===================== -->
+    <section class="slide" data-slide>
+      <div class="slide-inner">
+        <span class="kicker"><span class="dot"></span> Caso real · meu próprio currículo</span>
+        <h2 class="s-title wide">Do meu currículo de 2024 ao de 2026</h2>
+        <div class="resume-files stagger">
+          <a class="resume-file old" href="curriculos/BinharaResume-BigData2024.pdf" target="_blank" rel="noopener">
+            <div class="rf-top">
+              <span class="rf-ico"><i data-lucide="file-text"></i></span>
+              <div><div class="rf-year">2024</div><div class="rf-role">"Big Data Architect and Developer"</div></div>
+            </div>
+            <ul class="rf-diag">
+              <li><i data-lucide="x"></i> Parede de tecnologias e "About me" genérico</li>
+              <li><i data-lucide="x"></i> Experiência em 1ª pessoa, sem métricas</li>
+              <li><i data-lucide="x"></i> Foto, data de nascimento e até OS/2 e Win 3.1</li>
+            </ul>
+            <span class="rf-open"><i data-lucide="external-link"></i> Abrir PDF de 2024</span>
+          </a>
+          <a class="resume-file new" href="curriculos/AlessandroBinhara-DataEngenieer-2026.pdf" target="_blank" rel="noopener">
+            <div class="rf-top">
+              <span class="rf-ico"><i data-lucide="file-check-2"></i></span>
+              <div><div class="rf-year">2026</div><div class="rf-role">"Senior Data Engineer"</div></div>
+            </div>
+            <ul class="rf-diag">
+              <li><i data-lucide="check"></i> Resumo com impacto quantificado no topo</li>
+              <li><i data-lucide="check"></i> Verbos de ação + métricas em cada cargo</li>
+              <li><i data-lucide="check"></i> Posicionamento claro, LinkedIn e Skills tags (ATS)</li>
+            </ul>
+            <span class="rf-open"><i data-lucide="external-link"></i> Abrir PDF de 2026</span>
+          </a>
+        </div>
+        <div class="ba-note"><i data-lucide="mouse-pointer-click"></i> Clique em cada card para abrir o PDF durante a palestra.</div>
+      </div>
+    </section>
+
+    <!-- ===================== SLIDE 20 — MESMA EXPERIÊNCIA: TEXTO EXATO ANTES x DEPOIS ===================== -->
+    <section class="slide" data-slide>
+      <div class="slide-inner">
+        <span class="kicker"><span class="dot"></span> A mesma experiência · RDStation</span>
+        <h2 class="s-title wide">O mesmo trabalho, dois currículos</h2>
+        <div class="ba-grid stagger">
+          <div class="ba-col before">
+            <div class="ba-head"><i data-lucide="file-text"></i> Antes <span class="yr">2024</span></div>
+<div class="resume-literal"><strong>2020-2024 - Data Engineer Senior at RDStation.com</strong>
+I work with bigdata team data engineer. Activity Support, improvements, and cost reduction with Hadoop cluster, support to the team of developers. Maintaining a Hadoop cluster with more than 100 Tera Bytes of data. Tools used: Hive, Ranger, Infra-Solr, Sqoop, AirFlow, presto, spark, ambari, Nifi, Sqoop, Atlas. Researches new tools for the team.
+Hadoop Cluster:
+• Migration of a Hadoop cluster from OCI to GCP.
+• Training workshop with the Databricks team (20 hours).
+• POC (proof of concept) with the Microsoft and Databricks team for testing Databricks for migration from Hive to Spark with Databricks.
+• POC with the Snowflake team to test snowflake technology for migrating from Hive to Snowflake.
+• POC with the Google team to migrate from HIVE to Big Query.
+Snowflake at RDStation:
+• Creating Hadoop integration with Snowflake
+• Implementation of Snowflake as RDStation's data delivery layer.
+• Creation of Snowflake training for a team of RDStation users</div>
+          </div>
+          <div class="ba-col after">
+            <div class="ba-head"><i data-lucide="file-check-2"></i> Depois — modelo STAR <span class="yr">2026</span></div>
+<div class="resume-literal"><strong>Data Engineer — Resultados Digitais (RDStation.com)</strong>
+Florianópolis (Hybrid) | Apr 2020 – Feb 2024
+Stabilized and modernized a critical Hadoop-based data platform after a <mark>failed cloud migration</mark>, restoring reliability for executive dashboards and decision-support pipelines.
+Led the end-to-end migration of a <mark>~100 TB Hadoop Data Lake</mark> from OCI to Google Cloud with <mark>zero downtime</mark>, introducing Snowflake as the analytics delivery layer.
+Optimized HDFS performance and cost (filesystem layout, block sizing, service distribution, hardware/software tuning), improving overall cluster performance by <mark>25%</mark> and reducing monthly operational costs by <mark>30%</mark>.
+Reduced infrastructure footprint from <mark>35 to 18 servers</mark>, cutting monthly costs by <mark>40%</mark> and avoiding significant tool migration expenses.</div>
+          </div>
+        </div>
+        <div class="ba-note"><i data-lucide="quote"></i> Texto literal extraído dos dois currículos — mesma vivência, narrativa diferente.</div>
+      </div>
+    </section>
+
+    <!-- ===================== SLIDE 21 — O QUE MUDOU (ANÁLISE) ===================== -->
+    <section class="slide" data-slide>
+      <div class="slide-inner">
+        <span class="kicker"><span class="dot"></span> Análise do recrutador</span>
+        <h2 class="s-title wide">O que mudou — e por que funciona</h2>
+        <div class="shift-list stagger">
+          <div class="shift"><span class="from">"I work with bigdata team…"</span><span class="arrow"><i data-lucide="arrow-right"></i></span><span class="to"><strong>Verbo de ação:</strong> Led, Optimized, Reduced, Stabilized</span></div>
+          <div class="shift"><span class="from">"Maintaining a Hadoop cluster…"</span><span class="arrow"><i data-lucide="arrow-right"></i></span><span class="to"><strong>Resultado medido:</strong> +25% performance, −40% custo</span></div>
+          <div class="shift"><span class="from">"Migration from OCI to GCP"</span><span class="arrow"><i data-lucide="arrow-right"></i></span><span class="to"><strong>Escopo + risco:</strong> ~100 TB, <strong>zero downtime</strong></span></div>
+          <div class="shift"><span class="from">Lista de POCs e ferramentas</span><span class="arrow"><i data-lucide="arrow-right"></i></span><span class="to"><strong>Situação → Tarefa → Ação → Resultado</strong></span></div>
+          <div class="shift"><span class="from">"35 servers" (implícito)</span><span class="arrow"><i data-lucide="arrow-right"></i></span><span class="to"><strong>Número concreto:</strong> de 35 para 18 servidores</span></div>
+        </div>
+        <div class="highlight">Mesma experiência. O que mudou foi a forma de contar: de lista de tarefas para história de impacto.</div>
+      </div>
+    </section>
+
+    <!-- ===================== SLIDE 22 — LINKEDIN ===================== -->
+    <section class="slide" data-slide>
+      <div class="slide-inner">
+        <span class="kicker"><span class="dot"></span> LinkedIn</span>
+        <h2 class="s-title wide">LinkedIn não é currículo online. É <span class="grad-p">posicionamento.</span></h2>
+        <ul class="feature-list two-col stagger">
+          <li><i data-lucide="type"></i> Headline clara</li>
+          <li><i data-lucide="file-text"></i> Sobre com narrativa profissional</li>
+          <li><i data-lucide="bar-chart-3"></i> Experiências com métricas</li>
+          <li><i data-lucide="star"></i> Projetos em destaque</li>
+          <li><i data-lucide="repeat"></i> Conteúdo recorrente</li>
+          <li><i data-lucide="message-square"></i> Comentários estratégicos</li>
+          <li><i data-lucide="user-search"></i> Networking com recrutadores</li>
+          <li><i data-lucide="check-circle-2"></i> Consistência de mensagem</li>
+        </ul>
+        <div class="highlight">Se o mercado não entende o que você entrega, ele não consegue te valorizar.</div>
+      </div>
+    </section>
+
+    <!-- ===================== SLIDE 23 — POSICIONAMENTO: ANTES x DEPOIS ===================== -->
+    <section class="slide" data-slide>
+      <div class="slide-inner">
+        <span class="kicker"><span class="dot"></span> Posicionamento</span>
+        <h2 class="s-title wide">Em 3 segundos, o mercado entende o que você é?</h2>
+        <div class="ba-grid stagger">
+          <div class="ba-col before">
+            <div class="ba-head"><i data-lucide="file-text"></i> Antes <span class="yr">2024</span></div>
+            <div class="pos-body">
+              <div>
+                <div class="pos-label">Título / headline</div>
+                <div class="pos-headline">"Big Data Architect and Developer"</div>
+              </div>
+              <div>
+                <div class="pos-label">Primeira linha</div>
+                <div class="pos-quote">"I am a software engineer with over 20 years of experience in IT, specializing in product design and development…"</div>
+              </div>
+              <ul class="pos-diag">
+                <li><i data-lucide="x"></i> Título duplo: arquiteto <em>e</em> desenvolvedor — dois papéis, nenhum nicho</li>
+                <li><i data-lucide="x"></i> Abre como "software engineer", diluindo a especialidade em dados</li>
+                <li><i data-lucide="x"></i> Foto, data de nascimento e inglês "intermediate" enfraquecem a percepção sênior</li>
+              </ul>
+            </div>
+          </div>
+          <div class="ba-col after">
+            <div class="ba-head"><i data-lucide="file-check-2"></i> Depois <span class="yr">2026</span></div>
+            <div class="pos-body">
+              <div>
+                <div class="pos-label">Título / headline</div>
+                <div class="pos-headline">"Senior Data Engineer"</div>
+              </div>
+              <div>
+                <div class="pos-label">Primeira linha</div>
+                <div class="pos-quote">"Senior Data Engineer with 10+ years of building, migrating, and operating Big Data platforms (and 20+ years in software engineering)…"</div>
+              </div>
+              <ul class="pos-diag">
+                <li><i data-lucide="check"></i> Um título de mercado, claro e pesquisável</li>
+                <li><i data-lucide="check"></i> A 1ª linha já entrega nicho + senioridade + stack</li>
+                <li><i data-lucide="check"></i> Proposta de valor mensurável e presença internacional (LinkedIn, inglês pleno)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="cta-row" style="margin-top:22px;">
+          <a class="cta-link" href="curriculos/BinharaResume-BigData2024.pdf" target="_blank" rel="noopener"><i data-lucide="external-link"></i> Abrir currículo de 2024</a>
+          <a class="cta-link" href="curriculos/AlessandroBinhara-DataEngenieer-2026.pdf" target="_blank" rel="noopener"><i data-lucide="external-link"></i> Comparar com o de 2026</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SLIDE 24 — DICAS DE POSICIONAMENTO NO LINKEDIN ===================== -->
+    <section class="slide" data-slide>
+      <div class="slide-inner">
+        <span class="kicker"><span class="dot"></span> LinkedIn · Posicionamento</span>
+        <h2 class="s-title wide">Como posicionar seu perfil no LinkedIn</h2>
+        <div class="grid grid-4 stagger">
+          <div class="card"><div class="icon-chip"><i data-lucide="megaphone"></i></div><h4 class="tip-title">Headline com valor</h4><p class="tip-desc">Vá além do cargo: nicho + stack + impacto, não só "Data Engineer".</p></div>
+          <div class="card"><div class="icon-chip"><i data-lucide="image"></i></div><h4 class="tip-title">Foto e banner</h4><p class="tip-desc">Foto profissional nítida e banner com o seu tema de atuação.</p></div>
+          <div class="card"><div class="icon-chip"><i data-lucide="file-text"></i></div><h4 class="tip-title">"Sobre" com narrativa</h4><p class="tip-desc">1ª pessoa, com impacto medido e palavras-chave do mercado.</p></div>
+          <div class="card"><div class="icon-chip"><i data-lucide="star"></i></div><h4 class="tip-title">Destaques (Featured)</h4><p class="tip-desc">Fixe projetos, talks, artigos e cases que provam o que você diz.</p></div>
+          <div class="card"><div class="icon-chip"><i data-lucide="briefcase"></i></div><h4 class="tip-title">Experiência em STAR</h4><p class="tip-desc">Cada cargo com ação + resultado, não só lista de tarefas.</p></div>
+          <div class="card"><div class="icon-chip"><i data-lucide="search"></i></div><h4 class="tip-title">Palavras-chave (SEO)</h4><p class="tip-desc">Use os termos que o recrutador busca — é assim que ele te acha.</p></div>
+          <div class="card"><div class="icon-chip"><i data-lucide="badge-check"></i></div><h4 class="tip-title">Skills &amp; recomendações</h4><p class="tip-desc">Top skills alinhadas à vaga-alvo + recomendações de colegas e líderes.</p></div>
+          <div class="card"><div class="icon-chip"><i data-lucide="repeat"></i></div><h4 class="tip-title">Atividade consistente</h4><p class="tip-desc">Poste, comente e marque presença — perfil vivo ranqueia melhor.</p></div>
+        </div>
+        <div class="highlight">Exemplo de headline: <em>"Senior Data Engineer | Hadoop → Cloud | Snowflake · Lakehouse · Spark | −40% de custo em plataformas de dados"</em></div>
+      </div>
+    </section>
+
+    <!-- ===================== SLIDE 25 — STAR ===================== -->
+    <section class="slide" data-slide>
+      <div class="slide-inner">
+        <span class="kicker"><span class="dot"></span> Metodologia</span>
+        <h2 class="s-title wide">STAR: transforme experiência em história de impacto</h2>
+        <div class="star-grid stagger">
+          <div class="star-card"><div class="big">S</div><h4>Situação</h4><p>Qual era o contexto?</p></div>
+          <div class="star-card"><div class="big">T</div><h4>Tarefa</h4><p>Qual era o desafio?</p></div>
+          <div class="star-card"><div class="big">A</div><h4>Ação</h4><p>O que você fez?</p></div>
+          <div class="star-card"><div class="big">R</div><h4>Resultado</h4><p>Qual foi o impacto?</p></div>
+        </div>
+        <p class="lead" style="margin-top:26px;max-width:none;">Use STAR no currículo, LinkedIn, entrevistas, posts e apresentação pessoal.</p>
+      </div>
+    </section>
+
+    <!-- ===================== SLIDE 26 — STAR APLICADO (CURRÍCULO REAL) ===================== -->
+    <section class="slide" data-slide>
+      <div class="slide-inner">
+        <span class="kicker"><span class="dot"></span> STAR na prática</span>
+        <h2 class="s-title wide">STAR aplicado a uma experiência do meu currículo</h2>
+        <div class="star-split stagger">
+          <div class="exp-doc">
+            <div class="ed-head">
+              <div class="ed-role">Research &amp; Development Engineer (Data Engineering)</div>
+              <div class="ed-meta">Buscapé Group (eBehaviour acquisition) · São Paulo · 11/2009 – 05/2012</div>
+            </div>
+            <div class="ed-body">
+              <p><span class="h-a">Built and scaled</span> an early <span class="h-t">Hadoop-based recommendation platform</span> supporting <span class="h-s">high-volume Brazilian e-commerce traffic</span>, <span class="h-r">laying the foundation for large-scale data processing and analytics</span>. <span class="h-a">Designed and deployed the Hadoop cluster (compiled from source in the pre-distribution era)</span>, <span class="h-r">enabling scalable batch processing for large recommendation workloads</span>.</p>
+              <div class="ed-skills"><strong>Skills:</strong> Hadoop (HDFS, MapReduce), Java, Mahout, Pig, SQL, Linux, SQL Server, Cassandra, C#.</div>
+            </div>
+          </div>
+          <div class="star-stack">
+            <div class="sa-row s"><div class="ltr">S</div><div><h4>Situação</h4><p>Buscapé, com alto volume de tráfego de e-commerce, numa era anterior às distribuições Hadoop prontas.</p></div></div>
+            <div class="sa-row t"><div class="ltr">T</div><div><h4>Tarefa</h4><p>Construir uma plataforma de recomendação em larga escala — e o cluster que a sustentasse.</p></div></div>
+            <div class="sa-row a"><div class="ltr">A</div><div><h4>Ação</h4><p>Projetou e implantou o cluster Hadoop compilado do código-fonte, com Mahout e MapReduce em Java.</p></div></div>
+            <div class="sa-row r"><div class="ltr">R</div><div><h4>Resultado</h4><p>Recomendação suportando <strong>grande parte do e-commerce brasileiro</strong> e a <strong>base para dados em larga escala</strong>.</p></div></div>
+          </div>
+        </div>
+        <div class="ba-note"><i data-lucide="quote"></i> Texto literal do currículo 2026 à esquerda; as cores ligam cada trecho ao seu quadrante STAR.</div>
+      </div>
+    </section>
+
+    <!-- ===================== SLIDE 27 — DINÂMICA STAR ===================== -->
+    <section class="slide" data-slide>
+      <div class="bg-media"><img src="assets/images/star-action-plan.png" alt="Dinâmica STAR" /></div>
+      <div class="slide-inner">
+        <span class="kicker"><span class="dot"></span> Dinâmica · 10–15 min</span>
+        <h2 class="s-title">Transforme sua experiência em STAR</h2>
+        <div class="steps stagger">
+          <div class="step"><span class="num">1</span><div class="body">Escolha um <strong>projeto, curso, trabalho ou desafio</strong>.</div></div>
+          <div class="step"><span class="num">2</span><div class="body">Escreva em 4 linhas: <strong>Situação</strong> (contexto) · <strong>Tarefa</strong> (desafio) · <strong>Ação</strong> (o que fez) · <strong>Resultado</strong> (impacto).</div></div>
+          <div class="step"><span class="num">3</span><div class="body">Transforme em: uma <strong>frase de currículo</strong>, um <strong>trecho para LinkedIn</strong> e uma <strong>resposta de entrevista</strong>.</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SLIDE 28 — MOCK INTERVIEWS ===================== -->
+    <section class="slide" data-slide>
+      <div class="slide-inner">
+        <span class="kicker"><span class="dot"></span> Mock Interviews</span>
+        <h2 class="s-title">Entrevista também se treina</h2>
+        <div class="split">
+          <ul class="feature-list">
+            <li><i data-lucide="user-check"></i> Comportamental</li>
+            <li><i data-lucide="code-2"></i> Técnica</li>
+            <li><i data-lucide="languages"></i> Em inglês</li>
+            <li><i data-lucide="folder-open"></i> Explicação de projeto</li>
+            <li><i data-lucide="swords"></i> Conflitos e desafios</li>
+            <li><i data-lucide="dollar-sign"></i> Negociação de salário</li>
+            <li><i data-lucide="laptop"></i> Trabalho remoto</li>
+          </ul>
+          <div class="card">
+            <div class="icon-chip"><i data-lucide="messages-square"></i></div>
+            <h4 style="font-family:var(--font-head);margin-bottom:16px;color:var(--cyan);">Perguntas para praticar</h4>
+            <ul class="feature-list">
+              <li><i data-lucide="chevron-right"></i> <em>Tell me about yourself.</em></li>
+              <li><i data-lucide="chevron-right"></i> <em>Describe a challenging project.</em></li>
+              <li><i data-lucide="chevron-right"></i> <em>How do you learn a new technology?</em></li>
+              <li><i data-lucide="chevron-right"></i> <em>Why do you want to work internationally?</em></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SLIDE 29 — PITCH DE 3 MINUTOS ===================== -->
+    <section class="slide" data-slide>
+      <div class="slide-inner">
+        <span class="kicker"><span class="dot"></span> Mock Interview · Pitch</span>
+        <h2 class="s-title wide">Monte seu pitch de 3 minutos</h2>
+        <div class="grid grid-4 stagger">
+          <div class="card pitch-card">
+            <span class="pitch-time">0:00 – 0:30</span>
+            <div class="icon-chip"><i data-lucide="user"></i></div>
+            <h4 class="tip-title">Quem você é hoje</h4>
+            <p class="tip-desc">Posicionamento atual em uma frase: cargo + especialidade.</p>
+            <p class="pitch-ex">"I'm a Senior Data Engineer specialized in Big Data platforms and cloud migration."</p>
+          </div>
+          <div class="card pitch-card">
+            <span class="pitch-time">0:30 – 1:30</span>
+            <div class="icon-chip"><i data-lucide="route"></i></div>
+            <h4 class="tip-title">Sua trajetória</h4>
+            <p class="tip-desc">De onde veio: 1 ou 2 marcos que explicam sua evolução.</p>
+            <p class="pitch-ex">"Over 20 years in software and 10+ in data — from mobile to Hadoop, cloud and lakehouse."</p>
+          </div>
+          <div class="card pitch-card">
+            <span class="pitch-time">1:30 – 2:30</span>
+            <div class="icon-chip"><i data-lucide="trophy"></i></div>
+            <h4 class="tip-title">Sua prova (STAR)</h4>
+            <p class="tip-desc">Um case com resultado medido — o ponto alto do pitch.</p>
+            <p class="pitch-ex">"I led a ~100 TB Data Lake migration with zero downtime and 40% lower cost."</p>
+          </div>
+          <div class="card pitch-card">
+            <span class="pitch-time">2:30 – 3:00</span>
+            <div class="icon-chip"><i data-lucide="target"></i></div>
+            <h4 class="tip-title">Para onde quer ir</h4>
+            <p class="tip-desc">Seu objetivo + um fechamento que abre a conversa.</p>
+            <p class="pitch-ex">"Now I'm looking to work with global teams solving data challenges at scale."</p>
+          </div>
+        </div>
+        <div class="highlight">Decore a <strong style="color:var(--green)">estrutura</strong>, não o texto. Pratique em voz alta, cronometre e grave para ouvir.</div>
+      </div>
+    </section>
+
+    <!-- ===================== SLIDE 30 — IA COPILOTO ===================== -->
+    <section class="slide" data-slide>
+      <div class="slide-inner">
+        <div class="split left-media">
+          <div class="media"><img src="assets/images/ai-career-copilot.png" alt="IA como copiloto" /></div>
+          <div>
+            <span class="kicker"><span class="dot"></span> IA na carreira</span>
+            <h2 class="s-title">A IA mudou a forma de estudar e trabalhar</h2>
+            <ul class="feature-list two-col">
+              <li><i data-lucide="lightbulb"></i> Explicar conceitos</li>
+              <li><i data-lucide="code-2"></i> Revisar código</li>
+              <li><i data-lucide="messages-square"></i> Simular entrevistas</li>
+              <li><i data-lucide="file-text"></i> Melhorar currículo</li>
+              <li><i data-lucide="languages"></i> Praticar inglês</li>
+              <li><i data-lucide="map"></i> Criar plano de estudos</li>
+              <li><i data-lucide="git-compare"></i> Comparar tecnologias</li>
+              <li><i data-lucide="zap"></i> Acelerar protótipos</li>
+            </ul>
+            <div class="highlight">Não use IA para parecer que sabe. Use IA para aprender melhor.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SLIDE 31 — ESTUDANTES + IA ===================== -->
+    <section class="slide" data-slide>
+      <div class="bg-media"><img src="assets/images/ai-career-copilot.png" alt="IA treinador" /></div>
+      <div class="slide-inner">
+        <span class="kicker"><span class="dot"></span> Como estudar com IA</span>
+        <h2 class="s-title wide">Use IA como <span class="grad">treinador</span>, não como muleta</h2>
+        <div class="grid grid-4 stagger">
+          <div class="card"><div class="icon-chip"><i data-lucide="layers"></i></div><p>Peça explicações em <strong>níveis diferentes</strong></p></div>
+          <div class="card"><div class="icon-chip"><i data-lucide="list-checks"></i></div><p>Peça <strong>exemplos e exercícios</strong></p></div>
+          <div class="card"><div class="icon-chip"><i data-lucide="code-2"></i></div><p>Peça <strong>revisão de código</strong></p></div>
+          <div class="card"><div class="icon-chip"><i data-lucide="messages-square"></i></div><p>Peça <strong>simulação de entrevista</strong></p></div>
+          <div class="card"><div class="icon-chip"><i data-lucide="languages"></i></div><p>Peça <strong>correção do inglês</strong></p></div>
+          <div class="card"><div class="icon-chip"><i data-lucide="star"></i></div><p>Transforme um <strong>projeto em STAR</strong></p></div>
+          <div class="card"><div class="icon-chip"><i data-lucide="search"></i></div><p>Identifique <strong>lacunas no currículo</strong></p></div>
+          <div class="card"><div class="icon-chip"><i data-lucide="shield-check"></i></div><p>Sempre <strong>teste, valide e entenda</strong></p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SLIDE 32 — PROFISSIONAL QUE O MERCADO QUER ===================== -->
+    <section class="slide" data-slide>
+      <div class="slide-inner">
+        <span class="kicker"><span class="dot"></span> Perfil em alta</span>
+        <h2 class="s-title wide">O mercado procura quem entrega resultado</h2>
+        <div class="pills stagger">
+          <span class="pill"><i data-lucide="zap"></i> Aprende rápido</span>
+          <span class="pill"><i data-lucide="puzzle"></i> Resolve problemas reais</span>
+          <span class="pill"><i data-lucide="message-circle"></i> Comunica com clareza</span>
+          <span class="pill"><i data-lucide="briefcase"></i> Entende negócio</span>
+          <span class="pill"><i data-lucide="cpu"></i> Tem base técnica</span>
+          <span class="pill"><i data-lucide="bot"></i> Usa IA com inteligência</span>
+          <span class="pill"><i data-lucide="languages"></i> Tem inglês funcional</span>
+          <span class="pill"><i data-lucide="users"></i> Trabalha em equipe</span>
+          <span class="pill"><i data-lucide="trending-up"></i> Explica impacto</span>
+          <span class="pill"><i data-lucide="award"></i> Constrói reputação</span>
+        </div>
+        <div class="highlight">Ferramenta abre porta. Resultado sustenta carreira.</div>
+      </div>
+    </section>
+
+    <!-- ===================== SLIDE 33 — PLANO 30 DIAS ===================== -->
+    <section class="slide" data-slide>
+      <div class="bg-media"><img src="assets/images/journey-tech-road.png" alt="Plano de ação" /></div>
+      <div class="slide-inner">
+        <span class="kicker"><span class="dot"></span> Plano de ação</span>
+        <h2 class="s-title wide">Seu plano para os próximos 30 dias</h2>
+        <div class="weeks stagger">
+          <div class="week card">
+            <h4>Semana 1</h4>
+            <ul><li>Atualizar LinkedIn</li><li>Revisar currículo</li><li>Escrever apresentação pessoal</li></ul>
+          </div>
+          <div class="week card">
+            <h4>Semana 2</h4>
+            <ul><li>Organizar GitHub</li><li>Publicar um post técnico</li><li>Treinar "Tell me about yourself"</li></ul>
+          </div>
+          <div class="week card">
+            <h4>Semana 3</h4>
+            <ul><li>Fazer mock interview</li><li>Aplicar STAR em 3 experiências</li><li>Participar de uma comunidade</li></ul>
+          </div>
+          <div class="week card">
+            <h4>Semana 4</h4>
+            <ul><li>Aplicar para vagas</li><li>Conversar com recrutadores</li><li>Ajustar posicionamento</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SLIDE 34 — FECHAMENTO ===================== -->
+    <section class="slide" data-slide>
+      <div class="bg-media"><img src="assets/images/journey-tech-road.png" alt="Fechamento" /></div>
+      <div class="slide-inner stagger">
+        <span class="kicker"><span class="dot"></span> Fechamento</span>
+        <h2 class="s-title wide">Carreira internacional começa <span class="grad">antes da vaga</span></h2>
+        <p class="lead" style="max-width:52ch;">Você não precisa esperar estar pronto para começar. Comece pequeno, mas comece com consistência.</p>
+        <p class="closing-quote">Carreira internacional não começa quando você recebe a vaga. Ela começa quando você decide <span class="em">se preparar para ser encontrado</span>.</p>
+      </div>
+    </section>
+
+    <!-- ===================== SLIDE 35 — AGRADECIMENTO ===================== -->
+    <section class="slide" data-slide>
+      <div class="bg-media"><img src="assets/images/journey-tech-road.png" alt="Obrigado" /></div>
+      <div class="slide-inner stagger" style="text-align:center;">
+        <span class="kicker" style="margin-left:auto;margin-right:auto;"><span class="dot"></span> Obrigado!</span>
+        <h1 class="title" style="font-size:clamp(2.4rem,5vw,4.6rem);">Vamos <span class="grad">construir</span> juntos</h1>
+        <a class="thanks-email" href="mailto:binhara@azuris.com.br"><i data-lucide="mail"></i> binhara@azuris.com.br</a>
+        <div class="thanks-qrs">
+          <div class="tqr gu">
+            <div class="qr-box"><img src="assets/images/qr-gubigdata.png" alt="QR Code GU BigData & IA" /></div>
+            <span class="tqr-label">GU BigData &amp; IA</span>
+            <span class="tqr-url">site-gu-bigdata-2026.vercel.app</span>
+          </div>
+          <div class="tqr ett">
+            <div class="qr-box"><img src="assets/images/qr-ett.png" alt="QR Code English Talk Time" /></div>
+            <span class="tqr-label">English Talk Time</span>
+            <span class="tqr-url">englishtalktime.com.br</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== HUD ===================== -->
+  <div class="hud controls">
+    <button class="ctrl-btn" id="prevBtn" title="Anterior"><i data-lucide="chevron-left"></i></button>
+    <button class="ctrl-btn" id="nextBtn" title="Próximo"><i data-lucide="chevron-right"></i></button>
+    <button class="ctrl-btn" id="fsBtn" title="Tela cheia (F)"><i data-lucide="maximize"></i></button>
+  </div>
+
+  <div class="hud brand-tag"><span class="dot"></span> Do Software aos Dados</div>
+
+  <div class="hud slide-counter"><span class="cur" id="cur">01</span> / <span id="total">26</span></div>
+
+  <div class="hud hint" id="hint">
+    <kbd>→</kbd> <kbd>espaço</kbd> avança · <kbd>←</kbd> volta · <kbd>F</kbd> tela cheia
+  </div>
+
+  <div class="hud progress-track"><div class="progress-bar" id="progressBar"></div></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

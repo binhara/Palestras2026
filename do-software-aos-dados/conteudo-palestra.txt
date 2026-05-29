@@ -1,0 +1,609 @@
+# Palestra: Do Software aos Dados — Como Construir uma Carreira Global em Tecnologia
+
+## Ideia central da palestra
+
+Esta palestra é uma conversa direta sobre carreira em tecnologia, usando a minha própria trajetória como fio condutor: comecei como engenheiro de software, passei por desenvolvimento mobile, sistemas embarcados, open source, arquitetura de software, Big Data, engenharia de dados, cloud, plataformas analíticas, treinamentos corporativos e construção de comunidades.
+
+A mensagem principal é: uma carreira forte em tecnologia não nasce apenas de aprender ferramentas. Ela nasce da combinação entre fundamentos técnicos, projetos reais, curiosidade, comunidade, comunicação, inglês funcional, posicionamento profissional e capacidade de adaptação.
+
+---
+
+## Bloco 1 — Abertura e contexto
+
+### Slide 1 — Título
+
+**Do Software aos Dados: como construir uma carreira internacional em tecnologia**
+
+Subtítulo:
+**Rotina, aprendizado, posicionamento, inglês, IA e empregabilidade global**
+
+Mensagem principal:
+A tecnologia muda, mas quem aprende a aprender consegue atravessar várias ondas do mercado.
+
+---
+
+### Slide 2 — O que eu quero compartilhar hoje
+
+* Como é o dia a dia de um engenheiro de software.
+* Como é o dia a dia de um engenheiro de dados.
+* Como construí minha carreira passando por várias tecnologias.
+* Como aprender novas ferramentas sem depender apenas de cursos.
+* Como se posicionar melhor para o mercado.
+* Como o inglês muda o jogo para oportunidades internacionais.
+* Como usar IA para acelerar aprendizado e empregabilidade.
+* Como melhorar currículo, LinkedIn, entrevistas e comunicação profissional.
+
+---
+
+## Bloco 2 — Minha história profissional como linha do tempo
+
+### Slide 3 — Minha trajetória em uma linha
+
+**Software → Mobile → Sistemas Distribuídos → Big Data → Cloud → Dados & IA → Comunidade**
+
+Pontos para comentar:
+
+* Começo na engenharia de software.
+* Experiência com C#, Java, .NET, Xamarin e desenvolvimento mobile.
+* Participação em comunidades como Mono Brasil e Xamarin.
+* Projetos com Android, iOS, AOSP e sistemas seguros.
+* Entrada em Big Data com Hadoop, MapReduce, Mahout e sistemas distribuídos.
+* Evolução para engenharia de dados, lakehouse, cloud, Snowflake, ClickHouse, Spark, Kafka e Airflow.
+* Atuação como professor, mentor, consultor, fundador de comunidade e organizador de eventos.
+
+---
+
+### Slide 4 — O começo: software como base de tudo
+
+Mensagem principal:
+Antes de ser engenheiro de dados, eu fui engenheiro de software. E isso foi essencial.
+
+Pontos:
+
+* Programação ensina lógica, estrutura, depuração e disciplina.
+* Software exige entender usuário, negócio, prazo e manutenção.
+* O engenheiro de software aprende que código não é só código: é produto, operação e responsabilidade.
+* Fundamentos como orientação a objetos, arquitetura, testes, versionamento e boas práticas continuam úteis em qualquer fase da carreira.
+
+Exemplo pessoal:
+
+* Desenvolvimento com C#, Java, .NET, Xamarin, Android, iOS e arquitetura de aplicações.
+* Projetos mobile e enterprise ajudaram a formar visão de produto e entrega.
+
+---
+
+### Slide 5 — Comunidade, open source e aprendizado acelerado
+
+Mensagem principal:
+Comunidade acelera o aprendizado porque aproxima você de pessoas, problemas reais e oportunidades.
+
+Pontos:
+
+* Participação no Mono Brasil.
+* Experiência com Xamarin e treinamento de times.
+* Contato com comunidades técnicas desde cedo.
+* Aprender em público aumenta reputação.
+* Ensinar é uma das formas mais fortes de aprender.
+
+Frase de impacto:
+**Quem participa de comunidade aprende mais rápido, aparece mais e cria mais oportunidades.**
+
+---
+
+### Slide 6 — A virada para Big Data
+
+Mensagem principal:
+Minha entrada em Big Data veio da necessidade de resolver problemas maiores do que uma aplicação tradicional conseguia resolver.
+
+Pontos:
+
+* Hadoop, HDFS, MapReduce e Mahout.
+* Recomendação de produtos em larga escala no Buscapé.
+* Processamento distribuído.
+* Dados em grande volume.
+* Aprendizado em uma época em que muita coisa ainda precisava ser montada quase do zero.
+
+Exemplo pessoal:
+
+* Construção de plataforma de recomendação com Hadoop e Mahout.
+* Experiência com cluster, processamento distribuído e machine learning em larga escala.
+
+---
+
+### Slide 7 — Engenharia de Dados em escala
+
+Mensagem principal:
+Engenharia de dados é sobre transformar dados brutos em dados confiáveis, disponíveis e úteis para o negócio.
+
+Pontos:
+
+* Data lakes.
+* Pipelines.
+* Ingestão.
+* Transformação.
+* Qualidade.
+* Performance.
+* Custo.
+* Confiabilidade.
+* Governança.
+* Camadas de dados.
+* Entrega para BI, IA e analytics.
+
+Exemplo pessoal:
+
+* Migração de Data Lake Hadoop de grande escala.
+* Otimização de infraestrutura.
+* Redução de custos.
+* Introdução de plataformas modernas como Snowflake, ClickHouse, Databricks e arquiteturas lakehouse.
+
+---
+
+## Bloco 3 — O dia a dia das profissões
+
+### Slide 8 — O dia a dia de um Engenheiro de Software
+
+Atividades comuns:
+
+* Entender requisitos.
+* Desenvolver funcionalidades.
+* Criar APIs.
+* Fazer integrações.
+* Corrigir bugs.
+* Escrever testes.
+* Revisar código.
+* Fazer deploy.
+* Monitorar aplicação.
+* Conversar com produto, negócio, UX, QA e infraestrutura.
+
+Competências importantes:
+
+* Lógica de programação.
+* Arquitetura.
+* Versionamento.
+* Testes.
+* Segurança.
+* Comunicação.
+* Entendimento de negócio.
+
+Mensagem:
+**O engenheiro de software constrói sistemas que pessoas usam.**
+
+---
+
+### Slide 9 — O dia a dia de um Engenheiro de Dados
+
+Atividades comuns:
+
+* Criar pipelines de dados.
+* Extrair dados de sistemas.
+* Transformar dados.
+* Modelar bases analíticas.
+* Cuidar de performance.
+* Monitorar falhas.
+* Garantir qualidade.
+* Automatizar processos.
+* Integrar dados com BI, IA e produtos digitais.
+* Reduzir custo de processamento e armazenamento.
+
+Competências importantes:
+
+* SQL.
+* Python.
+* Cloud.
+* Orquestração.
+* Bancos de dados.
+* Data lake/lakehouse.
+* Streaming.
+* Modelagem.
+* Observabilidade.
+* Governança.
+
+Mensagem:
+**O engenheiro de dados constrói caminhos confiáveis para que a empresa tome decisões com dados.**
+
+---
+
+### Slide 10 — Software Engineer x Data Engineer
+
+Comparação simples:
+
+Engenheiro de Software:
+
+* Foco em aplicações, produtos e funcionalidades.
+* Usuário final geralmente é uma pessoa ou outro sistema.
+* Trabalha com regras de negócio, APIs, interfaces e experiência de uso.
+
+Engenheiro de Dados:
+
+* Foco em dados, pipelines e plataformas analíticas.
+* Usuário final geralmente é BI, ciência de dados, IA, áreas de negócio ou sistemas de recomendação.
+* Trabalha com volume, qualidade, consistência, performance e custo.
+
+Mensagem:
+**As duas áreas se conectam. Quanto melhor o engenheiro de dados entende software, mais forte ele se torna.**
+
+---
+
+## Bloco 4 — Como aprender tecnologia e evoluir
+
+### Slide 11 — Como eu aprendi tantas tecnologias
+
+Mensagem principal:
+Eu nunca aprendi tecnologia só por teoria. Eu aprendi porque precisava resolver problemas reais.
+
+Estratégia:
+
+* Começar pelos fundamentos.
+* Criar pequenos projetos.
+* Ler documentação.
+* Testar ferramentas.
+* Quebrar ambientes.
+* Participar de comunidades.
+* Ensinar outras pessoas.
+* Trabalhar em problemas reais.
+* Repetir o ciclo.
+
+Frase:
+**A melhor forma de aprender tecnologia é construir algo, errar, corrigir e explicar para alguém.**
+
+---
+
+### Slide 12 — Fundamentos que sobrevivem às ferramentas
+
+Pontos:
+
+* Lógica de programação.
+* SQL.
+* Linux.
+* Redes.
+* Banco de dados.
+* Estruturas de dados.
+* Arquitetura.
+* Testes.
+* Cloud.
+* Segurança.
+* Comunicação.
+* Inglês técnico.
+
+Mensagem:
+Ferramentas mudam. Fundamentos atravessam décadas.
+
+---
+
+### Slide 13 — O erro de estudar demais e se expor de menos
+
+Mensagem principal:
+Muita gente faz cursos, mas não mostra o que está aprendendo.
+
+Dicas:
+
+* Criar um GitHub organizado.
+* Publicar pequenos projetos.
+* Escrever posts curtos no LinkedIn.
+* Participar de eventos.
+* Fazer perguntas em comunidades.
+* Gravar pequenas explicações.
+* Montar estudos de caso.
+* Compartilhar aprendizados.
+
+Frase:
+**Quem só estuda fica invisível. Quem constrói e compartilha começa a ser lembrado.**
+
+---
+
+## Bloco 5 — Mercado internacional e inglês
+
+### Slide 14 — Por que pensar no mercado internacional
+
+Pontos:
+
+* O mercado de tecnologia é global.
+* O trabalho remoto abriu portas.
+* Empresas internacionais buscam profissionais em vários países.
+* Bons profissionais brasileiros podem competir globalmente.
+* O inglês é uma ponte para entrevistas, reuniões, documentação e networking.
+
+Mensagem:
+**O inglês não é apenas uma matéria. É uma ferramenta de acesso a oportunidades.**
+
+---
+
+### Slide 15 — Inglês funcional, não inglês perfeito
+
+Mensagem principal:
+Você não precisa falar como um nativo para começar. Você precisa conseguir se comunicar com clareza.
+
+Situações reais:
+
+* Apresentar sua trajetória.
+* Explicar um projeto.
+* Participar de uma reunião.
+* Responder perguntas em entrevista.
+* Ler documentação.
+* Escrever mensagens profissionais.
+* Fazer networking.
+
+Gancho para o ETT:
+O English Talk Time pode ser apresentado como uma iniciativa para ajudar profissionais de tecnologia, dados, IA e BI a destravar o inglês para uso real em carreira internacional.
+
+---
+
+### Slide 16 — Como praticar inglês para tecnologia
+
+Dicas:
+
+* Treinar apresentação pessoal em inglês.
+* Explicar um projeto técnico em inglês.
+* Simular entrevistas.
+* Ler documentação diariamente.
+* Assistir vídeos técnicos com legenda.
+* Usar IA para role-play de entrevistas.
+* Criar flashcards com vocabulário técnico.
+* Participar de grupos de conversação.
+
+Exercício prático sugerido:
+Cada aluno escrever uma resposta curta para:
+**Tell me about yourself.**
+**Tell me about a project you are proud of.**
+**Describe a technical challenge you solved.**
+
+---
+
+## Bloco 6 — Empregabilidade: currículo, LinkedIn e entrevistas
+
+### Slide 17 — Currículo: pare de listar ferramentas, conte impacto
+
+Mensagem principal:
+Um currículo forte não é uma lista de tecnologias. É uma narrativa de impacto.
+
+Modelo:
+
+* Qual era o problema?
+* O que você fez?
+* Quais tecnologias usou?
+* Qual foi o resultado?
+* Que impacto isso gerou?
+
+Exemplo:
+Ruim:
+“Trabalhei com Hadoop, Spark, Python e SQL.”
+
+Melhor:
+“Modernizei pipelines de dados em ambiente Hadoop/Spark, melhorando confiabilidade, reduzindo falhas e entregando bases analíticas para áreas de negócio.”
+
+Mais forte:
+“Liderei a modernização de uma plataforma de dados de grande escala, reduzindo custos operacionais, melhorando performance e garantindo continuidade dos dashboards executivos.”
+
+---
+
+### Slide 18 — LinkedIn como vitrine profissional
+
+Pontos:
+
+* Foto profissional.
+* Headline clara.
+* Sobre com posicionamento.
+* Experiências com impacto.
+* Competências alinhadas ao mercado.
+* Projetos em destaque.
+* Conteúdo recorrente.
+* Comentários estratégicos.
+* Networking com recrutadores e profissionais da área.
+
+Mensagem:
+**LinkedIn não é apenas currículo online. É uma ferramenta de posicionamento.**
+
+---
+
+### Slide 19 — A metodologia STAR
+
+STAR:
+
+* Situação.
+* Tarefa.
+* Ação.
+* Resultado.
+
+Como usar:
+
+* Currículo.
+* LinkedIn.
+* Entrevistas.
+* Posts.
+* Apresentação pessoal.
+* Cases de projeto.
+
+Exemplo:
+Situação: a empresa tinha pipelines instáveis e custos altos.
+Tarefa: estabilizar a plataforma e modernizar a arquitetura.
+Ação: reorganizei infraestrutura, otimizei processamento, conduzi migração e implementei novas camadas analíticas.
+Resultado: redução de custos, maior confiabilidade e continuidade na entrega de dados para decisão.
+
+Mensagem:
+**STAR transforma experiência solta em história profissional convincente.**
+
+---
+
+### Slide 20 — Mock interviews: treinar antes de valer
+
+Tipos de simulação:
+
+* Entrevista comportamental.
+* Entrevista técnica.
+* Entrevista em inglês.
+* Explicação de projeto.
+* Perguntas sobre conflitos e desafios.
+* Negociação de salário.
+* Perguntas sobre trabalho remoto.
+
+Perguntas para praticar:
+
+* Tell me about yourself.
+* Describe a challenging project.
+* How do you handle production incidents?
+* How do you learn a new technology?
+* Tell me about a time you disagreed with your team.
+* Why do you want to work internationally?
+
+---
+
+### Slide 21 — Criação de conteúdo para carreira
+
+Tipos de posts:
+
+* “O que aprendi estudando X.”
+* “Como resolvi um problema com Y.”
+* “Diferença entre duas tecnologias.”
+* “Erros que cometi no início da carreira.”
+* “Resumo de uma palestra ou evento.”
+* “Meu projeto de estudos da semana.”
+* “Como estou me preparando para entrevistas em inglês.”
+
+Mensagem:
+**Conteúdo não é vaidade. É construção de reputação.**
+
+---
+
+## Bloco 7 — IA e o futuro da carreira
+
+### Slide 22 — Como a IA muda o estudo e o trabalho
+
+Mensagem principal:
+A IA não substitui o profissional que sabe pensar. Ela substitui parte do trabalho repetitivo de quem não evolui.
+
+Usos práticos:
+
+* Explicar conceitos.
+* Revisar código.
+* Gerar exemplos.
+* Simular entrevistas.
+* Melhorar currículo.
+* Praticar inglês.
+* Criar plano de estudos.
+* Comparar tecnologias.
+* Ajudar na documentação.
+* Acelerar protótipos.
+
+Alerta:
+Não use IA para parecer que sabe. Use IA para aprender mais rápido e validar melhor.
+
+---
+
+### Slide 23 — Como estudantes devem usar IA
+
+Dicas:
+
+* Peça explicações em níveis diferentes: iniciante, intermediário e avançado.
+* Peça exemplos práticos.
+* Peça exercícios.
+* Peça revisão de código.
+* Peça simulação de entrevista.
+* Peça para corrigir sua resposta em inglês.
+* Peça para transformar um projeto em case STAR.
+* Peça para identificar lacunas no currículo.
+* Sempre teste, valide e entenda.
+
+Mensagem:
+**Quem usa IA como muleta fica fraco. Quem usa IA como treinador evolui mais rápido.**
+
+---
+
+### Slide 24 — O profissional que o mercado quer
+
+Características:
+
+* Aprende rápido.
+* Resolve problemas reais.
+* Comunica com clareza.
+* Entende negócio.
+* Tem base técnica.
+* Usa IA com inteligência.
+* Tem inglês funcional.
+* Sabe trabalhar em equipe.
+* Consegue explicar impacto.
+* Constrói reputação.
+
+Frase:
+**O mercado não procura apenas quem sabe ferramenta. Procura quem entrega resultado.**
+
+---
+
+## Bloco 8 — Plano de ação e fechamento
+
+### Slide 25 — Plano de ação de 30 dias
+
+Semana 1:
+
+* Atualizar LinkedIn.
+* Revisar currículo.
+* Escrever apresentação pessoal.
+
+Semana 2:
+
+* Criar ou organizar um projeto no GitHub.
+* Publicar um post técnico simples.
+* Praticar “Tell me about yourself” em inglês.
+
+Semana 3:
+
+* Fazer uma mock interview.
+* Aplicar STAR em três experiências.
+* Participar de um evento ou comunidade.
+
+Semana 4:
+
+* Aplicar para vagas.
+* Conversar com recrutadores.
+* Fazer networking.
+* Ajustar currículo com base no feedback.
+
+---
+
+### Slide 26 — Convite final
+
+Mensagem:
+Você não precisa esperar estar pronto para começar.
+Comece pequeno, mas comece com consistência.
+
+Caminhos:
+
+* Participar do GU BigData & IA.
+* Participar do English Talk Time.
+* Buscar mentorias e consultorias de carreira.
+* Usar apoio de parceiros como Coders.
+* Participar de eventos, grupos de estudo e comunidades.
+* Construir portfólio, currículo, LinkedIn e comunicação em inglês.
+
+Frase final:
+**Carreira internacional não começa quando você recebe a vaga. Ela começa quando você decide se preparar para ser encontrado.**
+
+
+Dinâmica adicionada: “Transforme sua experiência em STAR”
+
+Momento: após o bloco de currículo/LinkedIn.
+Duração: 10 a 15 minutos.
+
+Atividade:
+
+Cada pessoa escolhe um projeto, trabalho, curso ou desafio.
+Escreve em 4 linhas:
+Situação: qual era o contexto?
+Tarefa: qual era o desafio?
+Ação: o que você fez?
+Resultado: qual foi o impacto?
+Depois transforma isso em:
+uma frase de currículo;
+um trecho para LinkedIn;
+uma resposta de entrevista.
+
+Exemplo usando sua história: migração de Data Lake Hadoop de ~100 TB, zero downtime, redução de custos e modernização de plataforma.
+
+Imagens geradas para os slides
+Linha do tempo da carreira / jornada profissional
+Imagem 1
+Software Engineer x Data Engineer
+Imagem 2
+Metodologia STAR / plano de ação / carreira
+Imagem 3
+IA como copiloto de carreira, estudo e entrevistas
+Imagem 4
