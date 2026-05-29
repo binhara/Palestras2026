@@ -786,14 +786,25 @@ h2.s-title.wide { max-width: none; }
   border: 1px solid var(--border-strong);
   box-shadow: 0 30px 70px rgba(0,0,0,.6), 0 0 60px rgba(0,209,255,.16);
 }
+/* imagem como link */
+.app-img-link { display: contents; cursor: pointer; }
+.app-img-link img { transition: transform .35s, box-shadow .35s, border-color .35s; }
+.app-img-link:hover img {
+  transform: translateY(-4px) scale(1.01);
+  border-color: var(--cyan);
+  box-shadow: 0 34px 80px rgba(0,0,0,.6), 0 0 70px rgba(0,209,255,.28);
+}
 .app-cap {
   display: inline-flex; align-items: center; gap: 9px;
   font-family: var(--font-head); font-weight: 500;
   font-size: clamp(.85rem, 1.05vw, 1.05rem);
   color: var(--text-2);
+  text-decoration: none;
   padding: 9px 18px; border-radius: 999px;
   background: var(--card); border: 1px solid var(--border);
+  transition: border-color .3s, color .3s;
 }
+.app-cap:hover { border-color: var(--green); color: var(--text-1); }
 .app-cap i { width: 17px; height: 17px; color: var(--green); }
 
 @media (max-width: 960px) {
